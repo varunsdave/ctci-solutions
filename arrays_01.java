@@ -15,6 +15,8 @@ import java.lang.*;
  *  The space requirement for this solution is n for the length 128
  *  The code is tested for ASCII character set only.
  *  
+ *  This code is case-sensitive. That is, it treats a and A as two different
+ *  characters.
  *  
  */
 public class Solution {
