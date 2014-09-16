@@ -37,7 +37,7 @@ public class Solution {
 			return false;
 		}
 		
-		int [] char_occurences = new int [128];
+		int [] char_occurences = new int [256];
 		
 		for (int i = 0; i< input_string.length(); i++){
 			int val = input_string.charAt(i);
